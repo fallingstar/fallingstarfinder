@@ -1,0 +1,23 @@
+Use your phone to REALLY find meteors!  Stargazers in your region will go out wherever they are, set their phones down on the ground, and the phones will simultaneously snap pics of the same sky, looking to catch a falling star in 3D!
+
+[Watch our demo here!](http://www.youtube.com/watch?v=pHm66KTbzUg)
+
+A mobile phone, sitting on the ground, will take many back-to-back long-exposure images of the sky to capture meteor trails and passing satellites.  After the observing session, the user can upload all their photos to a server for other people to find meteors in, or the photographer can locally find their own meteors before upload.
+
+Anyone can download un-traced photos into the app to join in the process!
+
+When tracing, you look for an image with a white streak,  then trace the meteor trail onscreen, and align the photo with an overlaid star field. That creates the precise celestial coordinate dimensions of the sky streak.  The photo will have the vector streak coordinates embedded right in the EXIF tags with the location and time, and will be uploaded to the server.  
+
+The server will match photos from other observers within the same viewing area, and use the pythagorean theorem to find the latitude, longitude and altitude of the meteor or satellite trail.  The orbit can be calculated then, and the resulting orbit plot and ephemeris data appear on the website and alerts the users who took the photos and traced the trails.
+
+We would love to find developers who would like to make this fun, easy, citizen science astro app happen!
+Contact Dan at <steamfire@gmail.com>
+
+![Meteor Trace Screen -Imgur](http://i.imgur.com/Yum9mMgl.jpg)
+![Results Web Page -Imgur](http://i.imgur.com/jxpzNPCl.jpg)
+
+Credits:  
+Dan Bowen System concept development, demo vid, web  
+Mark Barczak - UI design and UI presentation pdf  
+Bethany Morse - Results Webpage Graphic  
+Bo Lowry for astronomical reference data and advice
